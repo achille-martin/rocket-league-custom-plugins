@@ -1,6 +1,6 @@
 # rocket-league-custom-plugins
 
-## Description
+## Introduction
 Custom BakkesMod plugins for Rocket League
 The aim is to improve experience in-game
 
@@ -48,5 +48,20 @@ Merge Review)
 2) Non-tech way of using the plugin
 * TODO
 
+## Capabilities
+* Plugins work in all training modes (against bots) and private matches
 
+## Plugins
+
+### Tutorial Plugin
+
+Plugin created to explore BakkesMod universe
+
+### Graffiti Plugin
+
+Lets a user write or draw in the arena directly (can be used for advertising or decoration)
+
+### RL Advisor Plugin
+
+Provides key information in game to make better and faster decisions
 
