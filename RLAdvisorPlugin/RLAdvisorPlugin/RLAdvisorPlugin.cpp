@@ -34,8 +34,10 @@ void RLAdvisorPlugin::onLoad()
 			}
 			this->pluginActive = std::make_shared<bool>(true);
 			gameWrapper->HookEvent("Function TAGame.Car_TA.SetVehicleInput", std::bind(&RLAdvisorPlugin::OnPhysicsTick, this));
-			// SetVehicleInput is synced up with the physics ticks
+			// SetVehicleInput event is called every physics tick while you are playing. This is 120 times per second. This can be highly useful but is not perfect
+			// It does not fire while spectating matches. While hosting a match it fires once per tick per car in the match
 			// Alternatively, gameWrapper->HookEvent("Function Engine.GameViewportClient.Tick", std::bind(&RLAdvisorPlugin::OnViewportTick, this)) can be used
+			// GameViewportClient.Tick event is called every rendered frame. This is very powerful, but again can have issues. Different framerates and stutters can make the number of ticks different on different PCs
 			gameWrapper->RegisterDrawable(std::bind(&RLAdvisorPlugin::DrawLines, this, std::placeholders::_1));
 
 		}, "Starts the RL Advisor plugin which gives you key information to make better and faster decisions.", PERMISSION_ALL);
