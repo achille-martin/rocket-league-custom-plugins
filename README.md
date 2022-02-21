@@ -68,7 +68,7 @@ Note: you can also load the plugin with the console (F6) and "plugin load <plugi
 * Plugin settings (old): https://bakkesmod.fandom.com/wiki/Plugin_settings_files![image](https://user-images.githubusercontent.com/66834162/155037557-5bd0af62-61a5-4afc-9f49-ec5bb69052de.png)
 * ImGUI interface (new): https://bakkesmodwiki.github.io/plugin_tutorial/plugin_interface/
 * Function (Events) scanner: https://bakkesmodwiki.github.io/functions/function_scanner/
-* BakkesMod Dev Discord Server: https://discord.gg/HMptXSzCvU![image](https://user-images.githubusercontent.com/66834162/155037601-e5b05679-d689-43bd-990b-834f0e754535.png)
+* BakkesMod Dev Discord Server: https://discord.gg/HMptXSzCvU
 
 ## Plugins
 
