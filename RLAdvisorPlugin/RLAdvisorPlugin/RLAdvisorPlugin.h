@@ -18,14 +18,14 @@ private:
 	// Note: max number of cars in game = 8 (4 + 4)
 	Vector carPosition3DArray[8] = { 0 }; // Array of 3D position vector for each car
 	bool carRelationshipArray[8] = { 0 }; // Array of car relationship to the main player (true = 1 = teammate / false = 0 = opponent)
-	bool isCarRelationshipDefined = false;
+	bool isCarRelationshipInitialised = false;
 
 public:
 	virtual void onLoad();
 	virtual void onUnload();
 	void OnAwarenessAdvisorStatusChanged(std::string oldValue, CVarWrapper newValue);
-	void GetCarRelationship();
-	void OnViewportTick();
+	void InitialiseCarRelationship();
+	void OnPhysicsTick();
 	void GetCarPositions3D();
 	void DrawLines(CanvasWrapper canvas);
 
