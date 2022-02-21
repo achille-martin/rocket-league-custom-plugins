@@ -46,7 +46,18 @@ Merge Review)
   from the "Plugins" Tab in BakkesMod (F2)
 
 2) Non-tech way of using the plugin
-* TODO
+* Copy the <plugin_name>.dll from <plugin_folder>/plugins
+* Paste the <plugin_name>.dll to the BakkesMod path: ...AppData\Roaming\bakkesmod\bakkesmod\plugins
+* Start BakkesMod
+* Start Rocket League
+* Open BakkesMod Settings with F2
+* Navigate to "Plugins" Tab
+* Open pluginmanager and tick your <plugin_name>
+* Open the console (F6) in BakkesMod and enter your <start_notifier_event>
+  command. Alternatively you can use the .set files to configure your plugin
+  from the "Plugins" Tab in BakkesMod (F2)
+
+Note: you can also load the plugin with the console (F6) and "plugin load <plugin_name>"
 
 ## Capabilities
 * Plugins work in all training modes (against bots) and private matches
