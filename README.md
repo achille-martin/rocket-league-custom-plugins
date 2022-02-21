@@ -26,7 +26,7 @@ The aim is to improve experience in-game
   repo, create the template, paste the existing plugin content back into your
   repo, then look at the git rules
 * Create the template
-* Build the solution to make sure your
+* Build the solution to make sure your setup is correct
 
 ## Git rules
 1) Add to the .gitignore all unwanted files created by Visual Studio
