@@ -1,3 +1,4 @@
+# Tutorial Plugin
 TutorialPlugin/.vs/
 TutorialPlugin/build/
 TutorialPlugin/plugins/
@@ -15,3 +16,22 @@ TutorialPlugin/TutorialPlugin/pch.h
 TutorialPlugin/TutorialPlugin/resource.h
 TutorialPlugin/TutorialPlugin/update_version.ps1
 TutorialPlugin/TutorialPlugin/version.h
+
+# Graffiti Plugin
+GraffitiPlugin/.vs/
+GraffitiPlugin/GraffitiPlugin.sln
+GraffitiPlugin/GraffitiPlugin/BakkesMod.props
+GraffitiPlugin/GraffitiPlugin/GraffitiPlugin.rc
+GraffitiPlugin/GraffitiPlugin/GraffitiPlugin.vcxproj
+GraffitiPlugin/GraffitiPlugin/GraffitiPlugin.vcxproj.filters
+GraffitiPlugin/GraffitiPlugin/GraffitiPlugin.vcxproj.user
+GraffitiPlugin/GraffitiPlugin/GraffitiPluginGUI.cpp
+GraffitiPlugin/GraffitiPlugin/IMGUI/
+GraffitiPlugin/GraffitiPlugin/fmt/
+GraffitiPlugin/GraffitiPlugin/pch.cpp
+GraffitiPlugin/GraffitiPlugin/pch.h
+GraffitiPlugin/GraffitiPlugin/resource.h
+GraffitiPlugin/GraffitiPlugin/update_version.ps1
+GraffitiPlugin/GraffitiPlugin/version.h
+GraffitiPlugin/build/
+GraffitiPlugin/plugins/
