@@ -35,3 +35,22 @@ GraffitiPlugin/GraffitiPlugin/update_version.ps1
 GraffitiPlugin/GraffitiPlugin/version.h
 GraffitiPlugin/build/
 GraffitiPlugin/plugins/
+
+# RL Advisor Plugin
+RLAdvisorPlugin/.vs/
+RLAdvisorPlugin/RLAdvisorPlugin.sln
+RLAdvisorPlugin/RLAdvisorPlugin/BakkesMod.props
+RLAdvisorPlugin/RLAdvisorPlugin/IMGUI/
+RLAdvisorPlugin/RLAdvisorPlugin/RLAdvisorPlugin.rc
+RLAdvisorPlugin/RLAdvisorPlugin/RLAdvisorPlugin.vcxproj
+RLAdvisorPlugin/RLAdvisorPlugin/RLAdvisorPlugin.vcxproj.filters
+RLAdvisorPlugin/RLAdvisorPlugin/RLAdvisorPlugin.vcxproj.user
+RLAdvisorPlugin/RLAdvisorPlugin/RLAdvisorPluginGUI.cpp
+RLAdvisorPlugin/RLAdvisorPlugin/fmt/
+RLAdvisorPlugin/RLAdvisorPlugin/pch.cpp
+RLAdvisorPlugin/RLAdvisorPlugin/pch.h
+RLAdvisorPlugin/RLAdvisorPlugin/resource.h
+RLAdvisorPlugin/RLAdvisorPlugin/update_version.ps1
+RLAdvisorPlugin/RLAdvisorPlugin/version.h
+RLAdvisorPlugin/build/
+RLAdvisorPlugin/plugins/
