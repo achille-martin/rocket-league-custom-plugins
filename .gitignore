@@ -1,0 +1,17 @@
+TutorialPlugin/.vs/
+TutorialPlugin/build/
+TutorialPlugin/plugins/
+TutorialPlugin/TutorialPlugin.sln
+TutorialPlugin/TutorialPlugin/BakkesMod.props
+TutorialPlugin/TutorialPlugin/IMGUI/
+TutorialPlugin/TutorialPlugin/TutorialPlugin.rc
+TutorialPlugin/TutorialPlugin/TutorialPlugin.vcxproj
+TutorialPlugin/TutorialPlugin/TutorialPlugin.vcxproj.filters
+TutorialPlugin/TutorialPlugin/TutorialPlugin.vcxproj.user
+TutorialPlugin/TutorialPlugin/TutorialPluginGUI.cpp
+TutorialPlugin/TutorialPlugin/fmt/
+TutorialPlugin/TutorialPlugin/pch.cpp
+TutorialPlugin/TutorialPlugin/pch.h
+TutorialPlugin/TutorialPlugin/resource.h
+TutorialPlugin/TutorialPlugin/update_version.ps1
+TutorialPlugin/TutorialPlugin/version.h
