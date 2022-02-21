@@ -76,3 +76,6 @@ Lets a user write or draw in the arena directly (can be used for advertising or 
 
 Provides key information in game to make better and faster decisions
 
+###### Bugs
+
+* Cannot get location of bots in private match
