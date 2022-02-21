@@ -62,6 +62,14 @@ Note: you can also load the plugin with the console (F6) and "plugin load <plugi
 ## Capabilities
 * Plugins work in all training modes (against bots) and private matches
 
+## Resources
+* Useful Game values: https://github.com/RLBot/RLBot/wiki/Useful-Game-Values
+* BakkesMod Plugin Tutorial: https://bakkesmodwiki.github.io/plugin_tutorial/getting_started/
+* Plugin settings (old): https://bakkesmod.fandom.com/wiki/Plugin_settings_files![image](https://user-images.githubusercontent.com/66834162/155037557-5bd0af62-61a5-4afc-9f49-ec5bb69052de.png)
+* ImGUI interface (new): https://bakkesmodwiki.github.io/plugin_tutorial/plugin_interface/
+* Function (Events) scanner: https://bakkesmodwiki.github.io/functions/function_scanner/
+* BakkesMod Dev Discord Server: https://discord.gg/HMptXSzCvU![image](https://user-images.githubusercontent.com/66834162/155037601-e5b05679-d689-43bd-990b-834f0e754535.png)
+
 ## Plugins
 
 ### Tutorial Plugin
@@ -79,3 +87,11 @@ Provides key information in game to make better and faster decisions
 ###### Bugs
 
 * Cannot get location of bots in private match
+
+## Legal
+
+Rocket League on Steam currently allows for the use of mods, so long as they comply with our ToU and EULA. Mods cannot:
+* Offer a competitive advantage in online play.
+* Expose unreleased features or content found within Rocket League’s code.
+* Interfere with, exploit, or abuse Rocket League services.
+Psyonix and Epic Games do not provide support for third-party mods -- use them at your own risk.
