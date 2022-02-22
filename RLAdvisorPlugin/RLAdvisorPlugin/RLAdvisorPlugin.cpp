@@ -145,6 +145,7 @@ void RLAdvisorPlugin::GetCarPositions3D()
 	DEBUG_MSG("RLAdvisorPlugin::GetCarPositions3D - Entering GetCarPositions3D()");
 
 	auto server = gameWrapper->IsInOnlineGame() ? gameWrapper->GetOnlineGame() : gameWrapper->GetGameEventAsServer();
+
 	auto cars = server.GetCars();
 
 	for (int i = 0; i < nb_cars; i++)
@@ -152,10 +153,8 @@ void RLAdvisorPlugin::GetCarPositions3D()
 		auto currentCar = cars.Get(i);
 		auto currentCarPosition = currentCar.GetLocation();
 		carPosition3DArray[i] = currentCarPosition;
+		DEBUG_MSG("RLAdvisorPlugin::GetCarPositions3D - Location of car " + std::to_string(i) + " is: [" + std::to_string(carPosition3DArray[i].X) + " " + std::to_string(carPosition3DArray[i].Y) + " " + std::to_string(carPosition3DArray[i].Z) + "] ");
 	}
-
-	DEBUG_MSG("RLAdvisorPlugin::GetCarPositions3D - Location of car 0 is: [" + std::to_string(carPosition3DArray[0].X) + " " + std::to_string(carPosition3DArray[0].Y) + " " + std::to_string(carPosition3DArray[0].Z) + "]");
-	DEBUG_MSG("RLAdvisorPlugin::GetCarPositions3D - Location of car 1 is: [" + std::to_string(carPosition3DArray[1].X) + " " + std::to_string(carPosition3DArray[1].Y) + " " + std::to_string(carPosition3DArray[1].Z) + "]");
 }
 
 void RLAdvisorPlugin::DrawLines(CanvasWrapper canvas)
